@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="5">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="#12"
+                android:layout_weight=".5"
+                android:textSize="20dp"
+                android:padding="2dp"
+                android:textColor="@color/GrayDolphin"
+                android:id="@+id/qid"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Alphabet Board Path"
+                android:layout_weight="4"
+                android:textSize="25dp"
+                android:textColor="@color/Black"
+                android:id="@+id/qtitle"
+                android:padding="5dp"/>
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight=".5"
+                android:id="@+id/heart"
+                android:src="@drawable/heart_fill"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="6"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="EASY"
+                android:layout_weight="1"
+                android:textColor="@color/White"
+                android:textStyle="bold"
+                android:background="@color/StoplightGoGreen"
+                android:textAlignment="center"
+                android:padding="3dp"
+                android:textSize="15dp"
+                android:id="@+id/level"
+                android:gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight=".5"
+                android:layout_marginLeft="3dp"
+                android:id="@+id/comp1"
+                />
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight=".5"
+                android:layout_marginLeft="3dp"
+                android:id="@+id/comp2"
+                android:src="@drawable/fb"/>
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight=".5"
+                android:layout_marginLeft="3dp"
+                android:id="@+id/comp3"
+                android:src="@drawable/apple"/>
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight=".5"
+                android:layout_marginLeft="3dp"
+                android:id="@+id/comp4"
+                android:src="@drawable/curefit"/>
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight=".5"
+                android:layout_marginLeft="3dp"
+                android:id="@+id/comp5"
+                android:visibility="invisible"
+                android:src="@drawable/ms"/>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight=".5"
+                android:layout_marginLeft="3dp"
+                android:id="@+id/comp6"
+                android:visibility="invisible"
+                android:src="@drawable/ms"/>
+
+                <ImageView
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:layout_weight=".5"
+                android:layout_marginLeft="3dp"
+                android:src="@drawable/star"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="12"
+                android:layout_weight=".5"
+                android:textSize="25dp"
+                android:id="@+id/star_count"/>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_weight=".5"
+                android:src="@drawable/frequency"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="12"
+                android:layout_weight=".5"
+                android:textSize="25dp"
+                android:id="@+id/freq"
+                android:layout_marginRight="5dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

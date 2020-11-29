@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Demux_Acad_Internship</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="SortBy">
+        <item>Index</item>
+        <item>Rating</item>
+        <item>Frequency</item>
+    </string-array>
+
+    <string-array name="Level">
+        <item>All</item>
+        <item>Easy</item>
+        <item>Average</item>
+        <item>Hard</item>
+    </string-array>
+
+    <string-array name="Company">
+        <item>All</item>
+        <item>Google</item>
+        <item>Facebook</item>
+        <item>Microsoft</item>
+        <item>Apple</item>
+        <item>DE Shaws</item>
+        <item>CureFit</item>
+    </string-array>
+
+    <string-array name="Nature">
+        <item>All</item>
+        <item>Internship</item>
+        <item>Placement</item>
+    </string-array>
+
+
+    <string-array name="Tags">
+        <item>All</item>
+        <item>Binary Search</item>
+        <item>Sorting</item>
+        <item>Trees</item>
+        <item>Graphs</item>
+        <item>Segment Tree</item>
+        <item>Linked Lists</item>
+        <item>Sweep Algorithm</item>
+    </string-array>
+
+</resources>
