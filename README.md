@@ -22,4 +22,12 @@ Download the apk file from the given drive link and install it on the mobile pho
 Folder Link: https://drive.google.com/drive/folders/19pIodKCGpz3Kwx-9EGvlmnXOaKWr-Jg2?usp=sharing
 
 
+App Priview Images:-
 
+![Capture1](https://user-images.githubusercontent.com/44019784/100549725-bf411d00-329a-11eb-8003-23aa3719ff52.JPG)
+
+![Capture2](https://user-images.githubusercontent.com/44019784/100549749-dc75eb80-329a-11eb-87a6-d7f30ca604ad.JPG)
+
+![Capture3](https://user-images.githubusercontent.com/44019784/100549755-e5ff5380-329a-11eb-9f77-31013c9608f4.JPG)
+
+![Capture4](https://user-images.githubusercontent.com/44019784/100549762-f1eb1580-329a-11eb-8608-98200d8fe09b.JPG)
