@@ -2,19 +2,11 @@ package com.example.demux_acad_internship;
 
 public class Question {
 
-    String title, index, bookmarked, level, c1url, c2url, c3url, c4url, c5url, c6url, upVote, frequency, problem;
-
+    String title, bookmarked, level, c1url, c2url, c3url, c4url, c5url, c6url,  problem;
+    int index, frequency, upVote;
     Question()
     {
 
-    }
-
-    public String getProblem() {
-        return problem;
-    }
-
-    public void setProblem(String problem) {
-        this.problem = problem;
     }
 
     public String getTitle() {
@@ -23,14 +15,6 @@ public class Question {
 
     public void setTitle(String title) {
         this.title = title;
-    }
-
-    public String getIndex() {
-        return index;
-    }
-
-    public void setIndex(String index) {
-        this.index = index;
     }
 
     public String getBookmarked() {
@@ -97,19 +81,35 @@ public class Question {
         this.c6url = c6url;
     }
 
-    public String getUpVote() {
-        return upVote;
+    public String getProblem() {
+        return problem;
     }
 
-    public void setUpVote(String upVote) {
-        this.upVote = upVote;
+    public void setProblem(String problem) {
+        this.problem = problem;
     }
 
-    public String getFrequency() {
+    public int getIndex() {
+        return index;
+    }
+
+    public void setIndex(int index) {
+        this.index = index;
+    }
+
+    public int getFrequency() {
         return frequency;
     }
 
-    public void setFrequency(String frequency) {
+    public void setFrequency(int frequency) {
         this.frequency = frequency;
+    }
+
+    public int getUpVote() {
+        return upVote;
+    }
+
+    public void setUpVote(int upVote) {
+        this.upVote = upVote;
     }
 }

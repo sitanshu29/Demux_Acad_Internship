@@ -31,10 +31,10 @@ public class myadapter extends FirebaseRecyclerAdapter<Question, myadapter.myVie
     @Override
     protected void onBindViewHolder(@NonNull final myViewHolder holder, final int position, @NonNull final Question model) {
 
-            holder.Qid.setText("#"+model.getIndex());
+            holder.Qid.setText("#"+ Integer.toString(model.getIndex()));
             holder.Title.setText(model.getTitle());
-            holder.UpVote.setText(model.getUpVote());
-            holder.Frequency.setText(model.getFrequency());
+            holder.UpVote.setText(Integer.toString(model.getUpVote()));
+            holder.Frequency.setText(Integer.toString(model.getFrequency()));
             String qDescription = model.getProblem();
             String temp = model.getBookmarked();
             int check = Integer.parseInt(temp);

@@ -24,12 +24,13 @@ public class descFragment extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    String index, title,  bookmark,level, c1url,  c2url, c3url,  c4url,  c5url, c6url,  upVote, frequency,problem;
+    String  title,  bookmark,level, c1url,  c2url, c3url,  c4url,  c5url, c6url,problem;
+    int index, upVote, frequency;
     public descFragment() {
 
     }
 
-    public descFragment(String index, String title, String bookmark, String level, String c1url, String c2url, String c3url, String c4url, String c5url, String c6url, String upVote, String frequency, String problem) {
+    public descFragment(int index, String title, String bookmark, String level, String c1url, String c2url, String c3url, String c4url, String c5url, String c6url, int upVote, int frequency, String problem) {
             this.index = index; this.title = title; this.bookmark = bookmark; this.level = level; this.c1url = c1url; this.c2url = c2url; this.c3url = c3url;
             this.c4url = c4url; this.c5url = c5url; this.c6url = c6url; this.upVote = upVote; this.frequency = frequency; this.problem = problem;
 
@@ -76,12 +77,12 @@ public class descFragment extends Fragment {
         C5 = itemView.findViewById(R.id.comp5);
         C6 = itemView.findViewById(R.id.comp6);
 
-        Qid.setText("#"+index);
+        Qid.setText("#"+Integer.toString(index));
         Problem.setText(problem);
         Title.setText(title);
         Level.setText(level);
-        UpVote.setText(upVote);
-        Frequency.setText(frequency);
+        UpVote.setText(Integer.toString(upVote));
+        Frequency.setText(Integer.toString(frequency));
 
         int check = Integer.parseInt(bookmark);
         if (check == 0)

@@ -71,7 +71,7 @@ public class Frag1 extends Fragment implements filterDialog.OnInputSelected {
 
         FirebaseRecyclerOptions<Question> options =
                 new FirebaseRecyclerOptions.Builder<Question>()
-                        .setQuery(FirebaseDatabase.getInstance().getReference().child("Questions").orderByChild("level"), Question.class)
+                        .setQuery(FirebaseDatabase.getInstance().getReference().child("Questions").orderByChild("upVote"), Question.class)
                         .build();
 
         adapter = new myadapter(options);
